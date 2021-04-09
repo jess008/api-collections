@@ -16,8 +16,17 @@ fun main(){
 
     }
 
-    values.forEach {
-        print(it)
+    values.forEach {valor ->
+        print(valor)
+    }
+
+    for(index in values.indices){
+        println(values[index])
+    }
+
+    values.sort()
+    for(valor in values){
+        println(valor)
     }
 
 }
